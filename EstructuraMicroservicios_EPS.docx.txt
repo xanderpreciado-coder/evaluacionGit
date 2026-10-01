@@ -1,0 +1,2 @@
+
+El presente documento describe la estructura base de un sistema orientado a microservicios para una Entidad Promotora de Salud (EPS). La arquitectura divide las principales responsabilidades del sistema en servicios independientes, facilitando la organización, mantenibilidad y evolución de la solución.
