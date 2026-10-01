@@ -1,0 +1,17 @@
+
+def verificar_servicio(nombre, disponible):
+    if disponible:
+        return f"{nombre}: disponible"
+    return f"{nombre}: no disponible"
+
+
+servicios = {
+    "afiliados": True,
+    "citas": True,
+    "autorizaciones": True,
+    "facturacion": True,
+    "notificaciones": True
+}
+
+for nombre, disponible in servicios.items():
+    print(verificar_servicio(nombre, disponible))
