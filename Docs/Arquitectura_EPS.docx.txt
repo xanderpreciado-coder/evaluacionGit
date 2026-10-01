@@ -1,0 +1,47 @@
+Portada
+
+Arquitectura de Microservicios para una EPS
+
+Asignatura: Ingeniería de Software III
+ Código: FI303290
+ Estudiante: Kevin Alexandrer Lucumi Preciado
+ Período: 2026-2
+
+1. Introducción
+
+Explicas qué pretende la arquitectura.
+
+2. Arquitectura de microservicios
+
+Puedes escribir:
+
+La arquitectura propuesta divide el sistema de la EPS en servicios independientes especializados en capacidades específicas del negocio. Esta separación permite reducir el acoplamiento entre módulos y facilita que los componentes puedan mantenerse y evolucionar de manera independiente.
+
+3. Componentes
+API Gateway
+
+Punto central de entrada para las solicitudes de clientes.
+
+Servicio de Afiliados
+
+Administra la información relacionada con los afiliados.
+
+Servicio de Citas
+
+Gestiona las operaciones asociadas a citas.
+
+Servicio de Autorizaciones
+
+Gestiona solicitudes y estados de autorizaciones.
+
+Servicio de Historia Clínica
+
+Representa el manejo de la información clínica dentro de la arquitectura propuesta.
+
+Servicio de Facturación
+
+Agrupa los procesos administrativos relacionados con facturación.
+
+Servicio de Notificaciones
+
+Centraliza las notificaciones que puedan producir otros servicios.
